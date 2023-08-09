@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LogicalMT - اختبار تحديد الشخصية المنطقي</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LogicalMT PY The EXP</h1>
+        <h4 class="lmt-desc">اختبار تحديد الشخصية المنطقي</h4>
+        <div class="questionnaire">
+            <div class="question"></div>
+            <div class="options">
+                <label class="option">
+                    <input type="radio" name="answer" value="A"> موافق
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer" value="D"> غير موافق
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer" value="U"> محايد/لا أدري
+                </label>
+            </div>
+            <button class="button" onclick="nextQuestion()">التالي</button>
+            <div class="result"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="all-crdts-to-tr">جميع الحقوق تعود الى بيناز 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
